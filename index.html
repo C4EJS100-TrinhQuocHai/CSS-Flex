@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+       
+      /*   transform: rotate(30deg) */
+     
+      /*   position: relative;
+        top: 50px;
+        left: 100px; */
+    }
+    .chirld{
+        width: 50px;
+        height: 50px;
+        background-color: green;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+</style>
+<body>
+    <!-- 
+        1.Position
+        2.Animation
+        3.Flex
+        POSITION
+        1.static : trạng thái mặc định
+        2.relative : vị trí tương đối
+        --khi có thuộc tính position:relative thì nó sẽ lấy vị trí ban đầu của nó làm gốc
+        3.absolute : vị trí tuyệt đối
+        -- nó sẽ lấy vị trí thằng cha chứa nó gần nhất làm gốc 
+        -- thằng cha chứa nó phải có thuộc tính là position
+        -- nếu không có thằng cha chứa nó gần nhất thì nó sẽ lấy màn hình làm gốc
+        4.fixed    : thường làm header đứng im
+        5.stiky    :tương tác khi scroll
+    note: transform.
+    vị trí ban đầu của nó không thay đổi
+    Bài tập:
+    Tạo 1 form login
+     đưa icon con mắt vào trong ô input.
+     -->
+     <div class="container">
+        <div class="chirld">
+
+        </div>
+     </div>
+     <p>position relative</p>
+</body>
+</html>
